@@ -1,0 +1,14 @@
+div.tab{
+    &-title{
+        float: left;
+        display: flex;
+        align-items: center;
+        height: 3rem;
+        line-height: 2.5rem;
+        font-size: 0.875;
+        margin: 0 1rem;
+        font-weight: normal;
+        border: 1px solid black;
+    }
+
+}

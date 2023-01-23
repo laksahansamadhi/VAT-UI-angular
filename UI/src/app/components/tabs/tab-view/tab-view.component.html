@@ -1,0 +1,9 @@
+<div 
+   [class]="{'tab-header':true, 'select': display}" 
+   (click)="clickTab()"> 
+   {{header}} 
+</div>
+
+<div class="tab-content" [style.display]="display ? 'block': 'none'">
+  <ng-content></ng-content>
+</div>
